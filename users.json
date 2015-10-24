@@ -1,0 +1,40 @@
+{
+  "jsonName": "Users list",
+  "usersList": [
+    {
+      "userId": "1",
+      "firstName": "Giga",
+      "lastName": "Songulashvili",
+      "age": "26",
+      "password": "test1234"
+    },
+    {
+      "userId": "2",
+      "firstName": "Gio",
+      "lastName": "Devidze",
+      "age": "27",
+      "password": "123456"
+    },
+    {
+      "userId": "3",
+      "firstName": "Jondi",
+      "lastName": "Bagaturia",
+      "age": "46",
+      "password": "jondi1234"
+    },
+    {
+      "userId": "4",
+      "firstName": "Vano",
+      "lastName": "Machaidze",
+      "age": "34",
+      "password": "vano1234"
+    },
+    {
+      "userId": "5",
+      "firstName": "George",
+      "lastName": "Bibilashvili",
+      "age": "26",
+      "password": "gio123456"
+    }
+  ]
+}

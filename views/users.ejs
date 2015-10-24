@@ -1,0 +1,11 @@
+<% include partials/header.ejs %>
+	<h1><%= title %></h1>
+	<h2><%= body %></h2>
+
+	<ul>
+		<% users.usersList.forEach(function(item){ %>
+			<li><a href="/user?id=<%= item.userId %>"><%= item.firstName %></a></li>
+		<% }); %>
+	</ul>
+
+<% include partials/footer.ejs %>
