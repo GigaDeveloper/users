@@ -29,6 +29,11 @@ app.use('/users', users);
 app.use('/adduser', adduser);
 app.use('/user', user);
 
+app.post('/addUserForm', function(req, res){    
+    var firstName = req.query.firstName;
+    console.log(firstName);   
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

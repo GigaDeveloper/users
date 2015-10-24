@@ -1,4 +1,34 @@
 <% include partials/header.ejs %>
 	<h1><%= title %></h1>
 	<h2><%= body %></h2>
+	<form action="addUserForm" method="post">
+
+		<label>
+			<p>First Name</p>
+			<input type="text" name="firstName">
+		</label>
+
+		<label>
+			<p>Last Name</p>
+			<input type="text" name="lastName">
+		</label>
+
+		<label>
+			<p>Age</p>
+			<input type="number" name="age">
+		</label>
+
+		<label>
+			<p>Password</p>
+			<input type="password" name="password">
+		</label>
+
+		<label>
+			<p>Re-Password</p>
+			<input type="password" name="repassword">
+		</label>
+		<br><br>
+		<button type="submit">Add User</button>
+
+	</form>
 <% include partials/footer.ejs %>

@@ -20,8 +20,8 @@
 9 verbose stack     at maybeClose (internal/child_process.js:818:16)
 9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
 10 verbose pkgid express@0.0.1
-11 verbose cwd D:\nodejs_projects\express
-12 error Windows_NT 6.3.9600
+11 verbose cwd C:\node_projects\express_users\users
+12 error Windows_NT 10.0.10240
 13 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
 14 error node v4.2.1
 15 error npm  v2.14.7
