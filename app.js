@@ -29,10 +29,13 @@ app.use('/users', users);
 app.use('/adduser', adduser);
 app.use('/user', user);
 
-app.post('/addUserForm', function(req, res){    
-    var firstName = req.query.firstName;
-    console.log(firstName);   
+app.post('/adduser',function(req,res){
+  var firstName=req.body.firstName;
+  var lastName=req.body.lastName;
+  console.log("First Name: "+firstName+", Last Name: "+lastName);
+  res.render('adduser', { name: firstName });
 });
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
